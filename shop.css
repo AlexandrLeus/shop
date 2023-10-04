@@ -1,15 +1,16 @@
 body {
 margin: 0;
 color: #fff;
-color:#333;
+color: black;
 }
 *, *:after, *:before {
     box-sizing: border-box;
+    
 }
 .wrapper {
   width:1440px;
   height: 1109px;
-  background: url("./images/Rectangle.png") center no-repeat;
+  background-color:#1B3764;
   background-size: cover;
   margin: 0px auto;
   }
@@ -17,19 +18,13 @@ color:#333;
   max-width: 1300px;
   margin: 0px auto;
 }
-header{
-  position: absolute;
-  top:0;
-  left: 0;
-  right: 0;
-  z-index: 1000;
-  width: 100%;
-}
+
 .header{
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding-top: 30px;
+
 }
 .navlogo{
   margin-right: 10px;
@@ -50,6 +45,14 @@ header{
 .navlink:hover{
   color: #FFCA42;
 }
+.nav_toggle{
+  width: 30px;
+  position:relative;
+  right: 20px;
+  z-index: 1;
+  display: none;
+}
+
 .navlink1{
   background: #FFCA42; 
   font-size: 19px;
@@ -279,10 +282,16 @@ flex: 1;
   align-items: center;
   
 }
+.book_today{
+  display: flex;
+  align-items: center;
+}
+
 .size54{
   font-size: 54px;
   margin: 0 auto;
   font-family: 'Cardo', serif;
+  
 }
 .size17{
 font-size: 17px;
@@ -319,6 +328,7 @@ font-family: 'Inter', sans-serif;
   flex: 1;
 }
 .get_copy{
+  display: flex;
   width: 1440px;
   height: 534px;
   background-color: #1B3764 ;
@@ -353,10 +363,10 @@ font-family: 'Inter', sans-serif;
 .what_learn{
   display: flex;
 }
-.img_wahtlearn{
+.img_whatlearn{
   flex: 1;
   position: relative;
-  left: 20px;
+  left: 40px;
 }
 .vision{
   width: 1440px;
@@ -483,6 +493,13 @@ font-family: 'Cardo', serif;
   flex: 1;
  margin-top: 40px;
 }
+.artandres{
+  width: 1440px;
+  height: 1154px;
+  background-color: #F4F8FF;
+  margin: 0 auto;
+  padding-top: 70px;
+}
 .resources{
   width: 420px;
   height: 622px;
@@ -586,6 +603,7 @@ width: 277px;
   font-family: 'Inter', sans-serif;
  top: 3px;
  left: 5px;
+ text-decoration: none;
 }
 
 .size18white{
@@ -660,6 +678,626 @@ width: 277px;
 .bigmargintopandbottom4{
   margin-top: 40px;
 }
+
+@media(max-width:1280px){
+.wrapper{
+  width: 1100px;
+}
+.nav_toggle{
+  display: block;
+  cursor: pointer;
+}
+.container{
+  width: 1100px;
+}
+.author{
+  width: 1100px;
+}
+.about{
+  width: 1100px;
+}
+.author{
+  width: 1100px;
+  padding: 0;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+.get_copy{
+  width: 1100px;
+}
+.vision{
+  width: 1100px;
+  height: 1600px;
+}
+.footer{
+  width: 1100px;
+}
+.artandres{
+  width: 1100px;
+  height: 2200px;
+ }
+ .nav{
+  display: none;
+ }
+
+ .img_whatlearn{
+  display: none;
+ }
+
+.inf{
+  display: none;
+}
+.container{
+  width: 1080px;
+}
+.img_about2{
+  width: 500px;
+}
+.borderskuf{
+  width: 480px;
+}
+.what_learn2{
+  margin: 0 auto;
+}
+.knowledge{
+  display: block;
+}
+.chapter{
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+.resources{
+  margin: 0 auto;
+  margin-bottom: 15px;
+}
+.container3{
+  width: 1080px;
+}
+.com{
+  margin-top: 100px;
+}
+.our_readers{
+  padding-top: 0;
+}
+}
+@media(max-width:1100px){
+  .welcome{
+    display: block;
+  }
+  .chapter{
+    height: 250px;
+  }
+  .wrapper{
+    width: 820px;
+    height: 1600px;
+    text-align: center;
+  }
+  .order{
+    display: block;
+    text-align: center;
+  }
+  .split_about{
+    display: block;
+   text-align: center;
+  }
+.img_whatlearn{
+  display: none;
+}
+.bookpubl{
+  margin: 0 auto;
+}
+  .author_title{ 
+    width: 800px;
+    margin: 0 auto;
+  }
+
+  .container{
+    width: 800px;
+  }
+  .about{
+    width: 820px;
+    height: 1600px;
+  }
+  .author{
+    width: 820px;
+    padding: 0;
+    display: block;
+  }
+  .get_copy{
+    width: 820px;
+  }
+  .vision{
+    width: 820px;
+    height: 1600px;
+  }
+  .chapter{
+    margin: 0 auto;
+    margin-bottom: 20px;
+    width: 550px;
+  }
+  .input{
+    width: 500px;
+  }
+  .footer{
+    width: 820px;
+  }
+  .header{
+    margin-bottom: 20px;
+  }
+
+  .container3{
+    width: 820px;
+  }
+ .dark{
+  padding-top: 80px;
+ }
+ .qr{
+ margin: 0 auto;
+ }
+
+.what_learn{
+  display: flex;
+}
+.what_learn2{
+ 
+  width: 800px;
+}
+.block{
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+.resources{
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.container3{
+  width: 800px;
+  text-align: center;
+}
+.footerend{
+  display: block;
+}
+.footer_text{
+  width: 100%;
+  text-align: center;
+}
+.footer_text1{
+  width: 100%;
+  text-align: center;
+}
+.footer_text2{
+  margin: 0 auto;
+}
+.address{
+  margin-left: 60px;
+}
+.footer_img{
+  margin: 0 auto;
+}
+.footer{
+  height: 1300px;
+}
+.knowledge{
+  display: block;
+  width: 800px;
+}
+.text_dark{
+  padding-bottom: 100px;
+}
+.bookpubl{
+  width: 500px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  text-align: start;
+}
+.trust{
+  display: block;
+}
+.our_readers{
+  display: block;
+  height: 1400px;
+  text-align: center;
+}
+.com{
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+.img_com{
+  margin: 0;
+}
+.com1{
+  margin: 0 auto;
+  top: 0;
+}
+.artandres{
+  height: 2200px;
+  width: 820px;
+}
+.container2{
+  height: 550px;
+}
+.right_img{
+  margin-left: 0;
+}
+.img_about2{
+  position: relative;
+ margin: 0 auto;
+}
+.borderskuf{
+  display: none;
+}
+}
+@media(max-width:820px){
+  .welcome{
+    display: block;
+  }
+  .wrapper{
+    width: 600px;
+    height: 1450px;
+    text-align: center;
+  }
+
+  .order{
+    display: block;
+    text-align: center;
+  }
+  .split_about{
+    display: block;
+   text-align: center;
+  }
+.img_whatlearn{
+  display: none;
+}
+
+
+  .author_title{ 
+    width: 600px;
+  }
+  .img_about2{
+  margin:0;
+  }
+  .author{
+    display: block;
+  }
+  .container{
+    width: 600px;
+  }
+  .author{
+    width: 600px;
+  }
+  .container{
+    width: 500px;
+  }
+  .about{
+    width: 600px;
+    height: 1600px;
+  }
+  .author{
+    width: 600px;
+    padding: 0;
+  }
+  .get_copy{
+    width: 600px;
+  }
+  .vision{
+    width: 600px;
+    height: 1800px;
+  }
+  .chapter{
+    height: 280px;
+    width: 500px;
+    margin-bottom: 20px;
+  }
+
+  .footer{
+    width: 600px;
+  }
+  .header{
+    margin-bottom: 20px;
+  }
+  .author_title{
+    width: 500px;
+  }
+  .container3{
+    width: 100%;
+  }
+  .last{
+    width: 600px;
+    text-align: center;
+  }
+ .dark{
+  padding-top: 80px;
+ }
+ .qr{
+ margin: 0 auto;
+ }
+.book_today{
+  display: block;
+}
+.get_copy{
+  height: 800px;
+}
+.coffee{
+  width: 500px;
+}
+.what_learn{
+  display: flex;
+}
+.what_learn2{
+  display: block;
+  width: 500px;
+}
+.block{
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+.resources{
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+.author_title{
+  margin: 0 auto;
+}
+.container3{
+  width: 600px;
+}
+.inf{
+  display: none;
+}
+.knowledge{
+  display: block;
+  width: 500px;
+}
+.text_dark{
+  padding-bottom: 100px;
+}
+.bookpubl{
+  width: 500px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.trust{
+  display: block;
+}
+.com{
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+.img_com{
+  margin: 0;
+}
+.com1{
+  margin: 0 auto;
+  top: 0;
+}
+.artandres{
+  height: 2200px;
+  width: 600px;
+}
+.media{
+  width: 500px;
+}
+.footerend{
+ width: 600px;
+}
+}
+@media(max-width:600px){
+  .welcome{
+    display: block;
+  }
+  .artandres{
+    width: 375px;
+  }
+  .resources{
+    margin: 0;
+    width: 375px;
+  }
+  .resources_text{
+    padding: 10px;
+  }
+  .resimg{
+    width: 375px;
+  }
+  .book_today{
+    text-align: center;
+  }
+  .button{
+    width: 375px;
+    height: auto;
+  }
+  .Nig{
+    width: 375px;
+  }
+ .readfree{
+  display: block;
+  margin-top:30px ;
+  border: 0;
+  margin-left: 0;
+ }
+ .navlogo{
+  display: block;
+  margin-bottom: 10px;
+ }
+  .wrapper{
+    width: 375px;
+    height: 1500px;
+  }
+  .img_about2{
+    position: relative;
+    width: 390px;
+  }
+  .img_about{
+    width: 350px;
+  }
+  .borderskuf{
+    display: none;
+  }
+  .order{
+    display: block;
+  }
+  .input{
+    width: 330px;
+  }
+  .split_about{
+    display: block;
+    padding: 0;
+  }
+  .author_title{
+    
+    width: 375px;
+  }
+  .author{
+    display: block;
+  }
+  .container{
+    width: 375px;
+  }
+  .author{
+    width: 375px;
+  }
+  .about{
+    width: 375px;
+    height: 1600px;
+  }
+  .author{
+    width: 375px;
+    padding: 0;
+  }
+  .get_copy{
+    width: 375px;
+    height: 700px;
+  }
+  .vision{
+    width: 375px;
+    height: 1850px;
+  }
+  .chapter{
+    margin-bottom: 20px;
+  }
+  .footer{
+    width: 375px;
+  }
+  .author_title{
+    width: 375px;
+  }
+  .container3{
+    width: 375px;
+  }
+ .dark{
+  padding-top: 80px;
+ }
+ .qr_wrap{
+  display: block;
+ }
+.what_learn{
+  display: block;
+}
+.what_learn2{
+  margin: 0;
+  width: 375px;
+}
+.knowledge{
+  display: block;
+  width: 375px;
+}
+.text_dark{
+  padding-bottom: 100px;
+}
+.vertical{
+  display: none;
+}
+.bookpubl{
+  width: 375px;
+  padding: 0;
+  display: block;
+  text-align: center;
+}
+.trust{
+  display: block;
+}
+.our_readers{
+  display: block;
+  height: 1800px;
+}
+.media{
+  width: 340px;
+  
+}
+.right_img{
+  padding-top: 50px;
+  margin: 0;
+}
+.qr{
+  width: auto;
+  height: 300px;
+}
+.coffee{
+  width: 300px;
+}
+.chapter{
+  width: 360px;
+  margin: 0;
+  height: 300px;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+.com1{
+  height: 400px;
+  width: 375px;
+}
+.nav_toggle{
+ margin-bottom: 150px;
+}
+.com{
+  height: 400px;
+  width: 375px;
+}
+.container2{
+  height: 600px;
+}
+.start{
+  padding: 20px;
+}
+.footerend{
+  display: block;
+  text-align: center;
+  width: 350px;
+}
+.last{
+  width: 330px;
+}
+.footer_img{
+  text-align: start;
+}
+.footer_text{
+  text-align: start;
+}
+.footer_text2{
+  text-align: start;
+  width: 350px;
+}
+.footer_text1{
+  text-align: start;
+}
+.address{
+  margin: 0;
+}
+.margin_top{
+  display: none;
+}
+.container3{
+  width: 330px;
+}
+
+}
+
+
+
+
+
+
+
 
 
 
