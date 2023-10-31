@@ -22,24 +22,26 @@
                     <a href=""><img class="navlogo" src="./images/x.png" alt=""></a>
                     <a href=""><img class="navlogo" src="./images/in.png" alt=""></a>
                 </div>
-                <div class="nav">
-                    <a class="navlink" href="">Home</a>
-                    <a class="navlink" href="">About</a>
-                    <a class="navlink" href="">Pages</a>
-                    <a class="navlink" href="">Contact Us</a>
+                <div class="nav" id="menu">
+                    <a class="navlink" href="#">Home</a>
+                    <a class="navlink" href="#about">About</a>
+                    <a class="navlink" href="#pages">Pages</a>
+                    <a class="navlink" href="#contact">Contact Us</a>
                     <img src="./images/basket.png" alt="">
-                    <a class="navlink1" href="">Order Today</a>
+                    <a class="navlink1" href="#order">Order Today</a>
                 </div>
                 <div class="nav_toggle">
-                    <a class="nav_toggle_item">
-                        <img src="./images/line.png" alt="">
-                        <img src="./images/line.png" alt="">
-                        <img src="./images/line.png" alt="">
+                    <a class="nav_toggle_item" id="hamb">
+                    <span class="bar"></span>
+                     <span class="bar"></span>
+                    <span class="bar"></span>
                     </a>
                 </div>
             </div>
             </div>
+            <div class="popup" id="popup"></div>
         </header>
+        <script src="js.js"></script>
         <div class="container">          
            <div class="welcome">
                 <div class="left_text">
@@ -101,7 +103,7 @@
             </div>
         </div>
     </div>
-    <div class="about">
+    <div class="about" id="about">
         <div class="container">
             <div class="split_about">
             <div class="img_about">
@@ -174,7 +176,7 @@
             </div>
         </div>
     </div>
-    <div class="get_copy">
+    <div class="get_copy" id="pages">
         <div class="container">
             <div class="book_today">
                 <div class="left_text">
@@ -331,7 +333,7 @@
             </div>
         </div>
     </div>
-    <div class="artandres">
+    <div class="artandres" id="contact">
         <div class="container">
             <div class="author_title">
                 <h2 class="size42">Articles & Resources</h2>
@@ -368,7 +370,7 @@
             </div>
         </div>
     </div>
-    <div class="author">
+    <div class="author" id="order">
         <div class="container2">
             <div class="author_title">
                 <h2 class="size42">Get The Best Updates</h2>
